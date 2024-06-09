@@ -8,7 +8,7 @@ document.querySelector('#root').innerHTML = render(
   <>
     {cities.map((city) => (
       <div key={city.name}>
-        <CityList name={city.name} population={city.population} area={city.area} 
+        <CityList name={city.name} population={city.population} area={city.area} district={city.district} photo={city.photo}
       />
       </div>
     ))}

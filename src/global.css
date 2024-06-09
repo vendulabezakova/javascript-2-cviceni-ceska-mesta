@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* Používáme intuitivní výpočet rozměrů prvků. */
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -23,19 +8,29 @@ html {
   font-family: sans-serif;
 }
 
-.container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.city {
+.city img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.city-card {
+  box-shadow: #828282cd 0px 3px 8px;
+  border-radius: 0 0 10px 10px;
+  margin: 20px;
+  width: 500px;
+}
+
+.info {
   padding: 20px;
-  box-shadow: #3d12bfcd 0px 3px 8px;
-  margin: 20px auto;
-  max-width: 500px;
 }
-
 
 
 h2 {
@@ -47,3 +42,4 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
+
