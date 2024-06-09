@@ -1,6 +1,5 @@
 
-export const CityList = (props) => {
-  return (
+export const CityList = (props) => 
     <div className="city-card">
         <div className="city">
             <img src={props.photo}></img>
@@ -12,5 +11,4 @@ export const CityList = (props) => {
                 </div>
         </div>
     </div>
-  );
-}
+  ;
