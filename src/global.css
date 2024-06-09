@@ -29,11 +29,21 @@ html {
   margin-left: auto;
 }
 
-h1 {
-  color: rgb(15, 94, 85);
-  font-size: 42px;
+.city {
+  padding: 20px;
+  box-shadow: #3d12bfcd 0px 3px 8px;
+  margin: 20px auto;
+  max-width: 500px;
 }
 
-.city {
-  color: rgb(49, 48, 48);
+
+
+h2 {
+  color: #3d12bfcd;
+}
+
+h1 {
+  color: #3d12bfcd;
+  text-align: center;
+  font-size: 3rem;
 }
