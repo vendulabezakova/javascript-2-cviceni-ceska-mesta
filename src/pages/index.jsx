@@ -9,7 +9,7 @@ document.querySelector('#root').innerHTML = render(
     {cities.map((city) => (
       <div key={city.name}>
         <CityList name={city.name} population={city.population} area={city.area} 
-        disctrict={city.district} foto={city.photo}/>
+      />
       </div>
     ))}
   </>
