@@ -2,7 +2,7 @@ export const cities = [
   {
     name: 'Praha',
     photo:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pet%C5%99%C3%ADn_Tower_View_IMG_3020.JPG/113px-Pet%C5%99%C3%ADn_Tower_View_IMG_3020.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/CharlesBridgeMalaStranaPragueCzechRepublic.jpg/1024px-CharlesBridgeMalaStranaPragueCzechRepublic.jpg',
     population: 1324277,
     area: 496.21,
     district: 'Praha',
@@ -10,7 +10,7 @@ export const cities = [
   {
     name: 'Brno',
     photo:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Brno%2C_%C5%A0t%C3%BD%C5%99ice%2C_Pra%C5%BE%C3%A1kova%2C_v%C3%BDhled_z_AZ_Toweru_%282013-05-22%3B_28%29.jpg/113px-Brno%2C_%C5%A0t%C3%BD%C5%99ice%2C_Pra%C5%BE%C3%A1kova%2C_v%C3%BDhled_z_AZ_Toweru_%282013-05-22%3B_28%29.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Mesto_Brno_-_Mahenovo_divadlo_2.jpg/1280px-Mesto_Brno_-_Mahenovo_divadlo_2.jpg',
     population: 381346,
     area: 230.18,
     district: 'okres Brno-město',
@@ -18,7 +18,7 @@ export const cities = [
   {
     name: 'Ostrava',
     photo:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Katedr%C3%A1la_Bo%C5%BEsk%C3%A9ho_Spasitele%2C_Nov%C3%A1_Karolina_a_Doln%C3%AD_oblast_V%C3%ADtkovic%2C_pohled_z_Nov%C3%A9_radnice%2C_srpen_2011.jpg/113px-Katedr%C3%A1la_Bo%C5%BEsk%C3%A9ho_Spasitele%2C_Nov%C3%A1_Karolina_a_Doln%C3%AD_oblast_V%C3%ADtkovic%2C_pohled_z_Nov%C3%A9_radnice%2C_srpen_2011.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/b/bc/Radnice-kun.jpg',
     population: 287968,
     area: 214.23,
     district: 'okres Ostrava-město',
@@ -26,7 +26,7 @@ export const cities = [
   {
     name: 'Plzeň',
     photo:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Plzen_city_view.jpg/113px-Plzen_city_view.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Plze%C5%88%2C_pomn%C3%ADk_osvobozen%C3%AD_U_Pr%C3%A1ce.JPG/1280px-Plze%C5%88%2C_pomn%C3%ADk_osvobozen%C3%AD_U_Pr%C3%A1ce.JPG',
     population: 174842,
     area: 137.67,
     district: 'okres Plzeň-město',
@@ -34,7 +34,7 @@ export const cities = [
   {
     name: 'Liberec',
     photo:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Liberec_Rathaus_Aussicht.JPG/113px-Liberec_Rathaus_Aussicht.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Je%C5%A1t%C4%9Bd_%2C_leteck%C3%BD_pohled.jpg/1280px-Je%C5%A1t%C4%9Bd_%2C_leteck%C3%BD_pohled.jpg',
     population: 104802,
     area: 106.09,
     district: 'okres Liberec',
@@ -42,7 +42,7 @@ export const cities = [
   {
     name: 'Olomouc',
     photo:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Olomouc-Horn%C3%AD_n%C3%A1m%C4%9Bst%C3%AD.JPG/113px-Olomouc-Horn%C3%AD_n%C3%A1m%C4%9Bst%C3%AD.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/f/f7/Katedr%C3%A1la_sv._V%C3%A1clava_Olomouc_-_panoramio.jpg',
     population: 100663,
     area: 103.33,
     district: 'okres Olomouc',
