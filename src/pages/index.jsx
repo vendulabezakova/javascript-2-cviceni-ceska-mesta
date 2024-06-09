@@ -1,60 +1,16 @@
 import { render } from '@czechitas/render';
 import '../global.css';
 import './index.css';
+import { CityList } from '../components/CityList.jsx';
+import { cities } from './czech-cities.js';
 
-
-
-const cities = [
-  {
-    name: 'Praha',
-    population: 1324277,
-    area: 496.21,
-  },
-  {
-    name: 'Brno',
-    population: 381346,
-    area: 230.18,
-  },
-  {
-    name: 'Ostrava',
-    population: 287968,
-    area: 214.23,
-  },
-  {
-    name: 'Plzeň',
-    population: 174842,
-    area: 137.67,
-  },
-  {
-    name: 'Liberec',
-    population: 104802,
-    area: 106.09,
-  },
-  {
-    name: 'Olomouc',
-    population: 100663,
-    area: 103.33,
-  },
-  {
-    name: 'České Budějovice',
-    population: 94463,
-    area: 55.6,
-  },
-  {
-    name: 'Hradec Králové',
-    population: 92939,
-    area: 105.69,
-  },
-  {
-    name: 'Ústí nad Labem',
-    population: 92716,
-    area: 93.97,
-  },
-  {
-    name: 'Pardubice',
-    population: 91727,
-    area: 82.66,
-  },
-];
-
-document.querySelector('#root').innerHTML = cities.map(city => `<div class="city">${city.name}, ${city.population}, ${city.area}</div>`).join(''); //join = odstraní čárky z pole
+document.querySelector('#root').innerHTML = render(
+  <>
+    {cities.map((city) => (
+      <div key={city.name}>
+        <CityList name={city.name} population={city.population} area={city.area} 
+        disctrict={city.district} foto={city.photo}/>
+      </div>
+    ))}
+  </>
+);
